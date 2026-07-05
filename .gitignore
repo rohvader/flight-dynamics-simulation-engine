@@ -1,0 +1,61 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# Unity / Visual Studio generated files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# IDE folders
+.vs/
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large media exports
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Excluded third-party or non-essential Unity assets
+Assets/UI/
+Assets/prefabs/
+Assets/spitfire mkiii/
+Assets/HDRPDefaultResources/
+
+# Unity sync/temp files
+*UnityDirMonSyncFile*
+
+# Exclude large Unity scenes
+Assets/scenes/

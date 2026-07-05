@@ -1,0 +1,54 @@
+import numpy as np
+import matplotlib.pyplot as plot
+import json
+
+def main():
+    # load the data from the json file
+    with open('data-points.json', 'r') as file:
+        data = json.load(file)
+    
+    # extracting angle of attack (AoA) and drag coefficient (Cd) from the json  I have created with the points
+    # AoA is in degrees and Cd is the drag coefficient corresponding to each AoA
+    alpha_data = np.array([entry["AoA"] for entry in data], dtype=float)
+    cd_data = np.array([entry["Cd"] for entry in data], dtype=float)
+
+    #trying a degree 2 polynomial
+    poly_order = 2
+
+    # fit the polynomial to the data using numpy function (x coords, y coords, degree of function)
+    #initially trying a quadratic
+    # coefficientss will contain term for x^2, term for x and constant term for a quadratic e.g. 1,2,3 gives x^2 + 2x + 3
+    coeffs = np.polyfit(alpha_data, cd_data, poly_order)
+
+    # create a function that uses the derived coefficients
+    # np.polyval evaluates the function at specific values (i.e. takes an x input and finds the corresponding y, so takes AoA and returns Cd)
+    def cd_polynomial(alpha):
+        return np.polyval(coeffs, alpha)
+
+    # create a range of alpha values for plotting the fitted curve
+    alpha_range = np.linspace(0, 15, 200)
+    #run polynomial function passing in the array just generated for the x values
+    cd_fitted = cd_polynomial(alpha_range)
+
+    # print out the polynomial coefficients
+    print("polynomial coefficients :  ", coeffs)
+    print("e.g. cd(alpha) = a*alpha^2 + b*alpha + c")
+
+    # set the y-axis to range from 0 to 0.3 instead of having a false origin
+    plot.ylim(0, 0.11)  #corrected from 0-->0.3
+
+    # extra formatting : title, labelled axis, key and gridlines
+    plot.title('curve fit of c_d vs alpha')
+    plot.xlabel('angle of attack (degrees)')
+    plot.ylabel('drag coefficient (c_d)')
+    plot.legend()
+    plot.grid(True)
+
+    # plot the original data
+    plot.scatter(alpha_data, cd_data, label='original data', color='red')
+    # plot the fitted polynomial
+    plot.plot(alpha_range, cd_fitted, label='fitted curve', color='blue')
+    plot.show()
+
+if __name__ == "__main__":
+    main()
