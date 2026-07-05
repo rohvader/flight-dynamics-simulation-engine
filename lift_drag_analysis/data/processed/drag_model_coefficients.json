@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "model": "Polynomial fit for Cd(alpha)",
+    "degree": 2,
+    "alpha_units": "degrees",
+    "coefficient_order": "highest_power_first",
+    "rmse": 0.005894934777520198,
+    "horner_expression": "((0.0005807597118 * alpha + -0.0001731904548) * alpha + 0.01080791788)"
+  },
+  "coefficients": [
+    0.0005807597117991046,
+    -0.00017319045484985324,
+    0.01080791788041478
+  ]
+}

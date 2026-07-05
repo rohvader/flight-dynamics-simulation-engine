@@ -1,0 +1,759 @@
+{
+  "metadata": {
+    "name": "lift_reynolds_points",
+    "status": "recreated_dataset",
+    "description": "Synthetic CL(alpha, Re) dataset generated from the write-up's logarithmic Reynolds correction model",
+    "alpha_units": "degrees",
+    "coefficient": "Cl",
+    "point_count": 147,
+    "model_seed_parameters": {
+      "cl0": 0.07,
+      "cl_alpha_per_degree": 0.0667,
+      "baseline_reynolds_number": 3400000.0,
+      "reynolds_sensitivity_k": -0.08
+    },
+    "notes": [
+      "Recreated dataset for portfolio reproduction",
+      "Expanded to more than 50 points across multiple Reynolds numbers",
+      "Includes simple post-stall softening for modelling",
+      "Not validated CFD data"
+    ]
+  },
+  "points": [
+    {
+      "alpha_deg": -8.0,
+      "reynolds_number": 2000000.0,
+      "cl": -0.48328
+    },
+    {
+      "alpha_deg": -7.5,
+      "reynolds_number": 2000000.0,
+      "cl": -0.448514
+    },
+    {
+      "alpha_deg": -7.0,
+      "reynolds_number": 2000000.0,
+      "cl": -0.413749
+    },
+    {
+      "alpha_deg": -6.5,
+      "reynolds_number": 2000000.0,
+      "cl": -0.378983
+    },
+    {
+      "alpha_deg": -6.0,
+      "reynolds_number": 2000000.0,
+      "cl": -0.344217
+    },
+    {
+      "alpha_deg": -5.5,
+      "reynolds_number": 2000000.0,
+      "cl": -0.309451
+    },
+    {
+      "alpha_deg": -5.0,
+      "reynolds_number": 2000000.0,
+      "cl": -0.274686
+    },
+    {
+      "alpha_deg": -4.5,
+      "reynolds_number": 2000000.0,
+      "cl": -0.23992
+    },
+    {
+      "alpha_deg": -4.0,
+      "reynolds_number": 2000000.0,
+      "cl": -0.205154
+    },
+    {
+      "alpha_deg": -3.5,
+      "reynolds_number": 2000000.0,
+      "cl": -0.170388
+    },
+    {
+      "alpha_deg": -3.0,
+      "reynolds_number": 2000000.0,
+      "cl": -0.135623
+    },
+    {
+      "alpha_deg": -2.5,
+      "reynolds_number": 2000000.0,
+      "cl": -0.100857
+    },
+    {
+      "alpha_deg": -2.0,
+      "reynolds_number": 2000000.0,
+      "cl": -0.066091
+    },
+    {
+      "alpha_deg": -1.5,
+      "reynolds_number": 2000000.0,
+      "cl": -0.031326
+    },
+    {
+      "alpha_deg": -1.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.00344
+    },
+    {
+      "alpha_deg": -0.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.038206
+    },
+    {
+      "alpha_deg": 0.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.072972
+    },
+    {
+      "alpha_deg": 0.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.107737
+    },
+    {
+      "alpha_deg": 1.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.142503
+    },
+    {
+      "alpha_deg": 1.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.177269
+    },
+    {
+      "alpha_deg": 2.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.212034
+    },
+    {
+      "alpha_deg": 2.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.2468
+    },
+    {
+      "alpha_deg": 3.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.281566
+    },
+    {
+      "alpha_deg": 3.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.316332
+    },
+    {
+      "alpha_deg": 4.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.351097
+    },
+    {
+      "alpha_deg": 4.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.385863
+    },
+    {
+      "alpha_deg": 5.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.420629
+    },
+    {
+      "alpha_deg": 5.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.455394
+    },
+    {
+      "alpha_deg": 6.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.49016
+    },
+    {
+      "alpha_deg": 6.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.524926
+    },
+    {
+      "alpha_deg": 7.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.559692
+    },
+    {
+      "alpha_deg": 7.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.594457
+    },
+    {
+      "alpha_deg": 8.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.629223
+    },
+    {
+      "alpha_deg": 8.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.663989
+    },
+    {
+      "alpha_deg": 9.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.698754
+    },
+    {
+      "alpha_deg": 9.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.73352
+    },
+    {
+      "alpha_deg": 10.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.768286
+    },
+    {
+      "alpha_deg": 10.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.803052
+    },
+    {
+      "alpha_deg": 11.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.837817
+    },
+    {
+      "alpha_deg": 11.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.872583
+    },
+    {
+      "alpha_deg": 12.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.907349
+    },
+    {
+      "alpha_deg": 12.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.91899
+    },
+    {
+      "alpha_deg": 13.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.92188
+    },
+    {
+      "alpha_deg": 13.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.920345
+    },
+    {
+      "alpha_deg": 14.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.915599
+    },
+    {
+      "alpha_deg": 14.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.90828
+    },
+    {
+      "alpha_deg": 15.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.898791
+    },
+    {
+      "alpha_deg": 15.5,
+      "reynolds_number": 2000000.0,
+      "cl": 0.887411
+    },
+    {
+      "alpha_deg": 16.0,
+      "reynolds_number": 2000000.0,
+      "cl": 0.874347
+    },
+    {
+      "alpha_deg": -8.0,
+      "reynolds_number": 3400000.0,
+      "cl": -0.4636
+    },
+    {
+      "alpha_deg": -7.5,
+      "reynolds_number": 3400000.0,
+      "cl": -0.43025
+    },
+    {
+      "alpha_deg": -7.0,
+      "reynolds_number": 3400000.0,
+      "cl": -0.3969
+    },
+    {
+      "alpha_deg": -6.5,
+      "reynolds_number": 3400000.0,
+      "cl": -0.36355
+    },
+    {
+      "alpha_deg": -6.0,
+      "reynolds_number": 3400000.0,
+      "cl": -0.3302
+    },
+    {
+      "alpha_deg": -5.5,
+      "reynolds_number": 3400000.0,
+      "cl": -0.29685
+    },
+    {
+      "alpha_deg": -5.0,
+      "reynolds_number": 3400000.0,
+      "cl": -0.2635
+    },
+    {
+      "alpha_deg": -4.5,
+      "reynolds_number": 3400000.0,
+      "cl": -0.23015
+    },
+    {
+      "alpha_deg": -4.0,
+      "reynolds_number": 3400000.0,
+      "cl": -0.1968
+    },
+    {
+      "alpha_deg": -3.5,
+      "reynolds_number": 3400000.0,
+      "cl": -0.16345
+    },
+    {
+      "alpha_deg": -3.0,
+      "reynolds_number": 3400000.0,
+      "cl": -0.1301
+    },
+    {
+      "alpha_deg": -2.5,
+      "reynolds_number": 3400000.0,
+      "cl": -0.09675
+    },
+    {
+      "alpha_deg": -2.0,
+      "reynolds_number": 3400000.0,
+      "cl": -0.0634
+    },
+    {
+      "alpha_deg": -1.5,
+      "reynolds_number": 3400000.0,
+      "cl": -0.03005
+    },
+    {
+      "alpha_deg": -1.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.0033
+    },
+    {
+      "alpha_deg": -0.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.03665
+    },
+    {
+      "alpha_deg": 0.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.07
+    },
+    {
+      "alpha_deg": 0.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.10335
+    },
+    {
+      "alpha_deg": 1.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.1367
+    },
+    {
+      "alpha_deg": 1.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.17005
+    },
+    {
+      "alpha_deg": 2.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.2034
+    },
+    {
+      "alpha_deg": 2.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.23675
+    },
+    {
+      "alpha_deg": 3.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.2701
+    },
+    {
+      "alpha_deg": 3.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.30345
+    },
+    {
+      "alpha_deg": 4.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.3368
+    },
+    {
+      "alpha_deg": 4.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.37015
+    },
+    {
+      "alpha_deg": 5.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.4035
+    },
+    {
+      "alpha_deg": 5.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.43685
+    },
+    {
+      "alpha_deg": 6.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.4702
+    },
+    {
+      "alpha_deg": 6.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.50355
+    },
+    {
+      "alpha_deg": 7.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.5369
+    },
+    {
+      "alpha_deg": 7.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.57025
+    },
+    {
+      "alpha_deg": 8.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.6036
+    },
+    {
+      "alpha_deg": 8.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.63695
+    },
+    {
+      "alpha_deg": 9.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.6703
+    },
+    {
+      "alpha_deg": 9.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.70365
+    },
+    {
+      "alpha_deg": 10.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.737
+    },
+    {
+      "alpha_deg": 10.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.77035
+    },
+    {
+      "alpha_deg": 11.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.8037
+    },
+    {
+      "alpha_deg": 11.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.83705
+    },
+    {
+      "alpha_deg": 12.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.8704
+    },
+    {
+      "alpha_deg": 12.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.880625
+    },
+    {
+      "alpha_deg": 13.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.8821
+    },
+    {
+      "alpha_deg": 13.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.879149
+    },
+    {
+      "alpha_deg": 14.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.872987
+    },
+    {
+      "alpha_deg": 14.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.864253
+    },
+    {
+      "alpha_deg": 15.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.853348
+    },
+    {
+      "alpha_deg": 15.5,
+      "reynolds_number": 3400000.0,
+      "cl": 0.840552
+    },
+    {
+      "alpha_deg": 16.0,
+      "reynolds_number": 3400000.0,
+      "cl": 0.826073
+    },
+    {
+      "alpha_deg": -8.0,
+      "reynolds_number": 4800000.0,
+      "cl": -0.450811
+    },
+    {
+      "alpha_deg": -7.5,
+      "reynolds_number": 4800000.0,
+      "cl": -0.418381
+    },
+    {
+      "alpha_deg": -7.0,
+      "reynolds_number": 4800000.0,
+      "cl": -0.385951
+    },
+    {
+      "alpha_deg": -6.5,
+      "reynolds_number": 4800000.0,
+      "cl": -0.353521
+    },
+    {
+      "alpha_deg": -6.0,
+      "reynolds_number": 4800000.0,
+      "cl": -0.321091
+    },
+    {
+      "alpha_deg": -5.5,
+      "reynolds_number": 4800000.0,
+      "cl": -0.288661
+    },
+    {
+      "alpha_deg": -5.0,
+      "reynolds_number": 4800000.0,
+      "cl": -0.256231
+    },
+    {
+      "alpha_deg": -4.5,
+      "reynolds_number": 4800000.0,
+      "cl": -0.223801
+    },
+    {
+      "alpha_deg": -4.0,
+      "reynolds_number": 4800000.0,
+      "cl": -0.191371
+    },
+    {
+      "alpha_deg": -3.5,
+      "reynolds_number": 4800000.0,
+      "cl": -0.158941
+    },
+    {
+      "alpha_deg": -3.0,
+      "reynolds_number": 4800000.0,
+      "cl": -0.126511
+    },
+    {
+      "alpha_deg": -2.5,
+      "reynolds_number": 4800000.0,
+      "cl": -0.094081
+    },
+    {
+      "alpha_deg": -2.0,
+      "reynolds_number": 4800000.0,
+      "cl": -0.061651
+    },
+    {
+      "alpha_deg": -1.5,
+      "reynolds_number": 4800000.0,
+      "cl": -0.029221
+    },
+    {
+      "alpha_deg": -1.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.003209
+    },
+    {
+      "alpha_deg": -0.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.035639
+    },
+    {
+      "alpha_deg": 0.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.068069
+    },
+    {
+      "alpha_deg": 0.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.100499
+    },
+    {
+      "alpha_deg": 1.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.132929
+    },
+    {
+      "alpha_deg": 1.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.165359
+    },
+    {
+      "alpha_deg": 2.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.197789
+    },
+    {
+      "alpha_deg": 2.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.230219
+    },
+    {
+      "alpha_deg": 3.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.262649
+    },
+    {
+      "alpha_deg": 3.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.295079
+    },
+    {
+      "alpha_deg": 4.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.327509
+    },
+    {
+      "alpha_deg": 4.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.359939
+    },
+    {
+      "alpha_deg": 5.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.392369
+    },
+    {
+      "alpha_deg": 5.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.424799
+    },
+    {
+      "alpha_deg": 6.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.457228
+    },
+    {
+      "alpha_deg": 6.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.489658
+    },
+    {
+      "alpha_deg": 7.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.522088
+    },
+    {
+      "alpha_deg": 7.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.554518
+    },
+    {
+      "alpha_deg": 8.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.586948
+    },
+    {
+      "alpha_deg": 8.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.619378
+    },
+    {
+      "alpha_deg": 9.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.651808
+    },
+    {
+      "alpha_deg": 9.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.684238
+    },
+    {
+      "alpha_deg": 10.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.716668
+    },
+    {
+      "alpha_deg": 10.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.749098
+    },
+    {
+      "alpha_deg": 11.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.781528
+    },
+    {
+      "alpha_deg": 11.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.813958
+    },
+    {
+      "alpha_deg": 12.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.846388
+    },
+    {
+      "alpha_deg": 12.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.855693
+    },
+    {
+      "alpha_deg": 13.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.856248
+    },
+    {
+      "alpha_deg": 13.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.852377
+    },
+    {
+      "alpha_deg": 14.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.845295
+    },
+    {
+      "alpha_deg": 14.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.835641
+    },
+    {
+      "alpha_deg": 15.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.823816
+    },
+    {
+      "alpha_deg": 15.5,
+      "reynolds_number": 4800000.0,
+      "cl": 0.8101
+    },
+    {
+      "alpha_deg": 16.0,
+      "reynolds_number": 4800000.0,
+      "cl": 0.794701
+    }
+  ]
+}

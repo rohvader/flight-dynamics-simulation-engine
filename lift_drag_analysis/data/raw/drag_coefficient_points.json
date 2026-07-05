@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "name": "drag_coefficient_points",
+    "status": "recreated_dataset",
+    "description": "Synthetic drag coefficient points generated from the uploaded write-up's drag modelling methodology, expanded beyond the original sparse points",
+    "alpha_units": "degrees",
+    "coefficient": "Cd",
+    "point_count": 61,
+    "notes": [
+      "Recreated dataset for portfolio reproduction",
+      "Uses the documented quadratic CD(alpha) as a baseline",
+      "Adds extra higher-AoA points so the fitting pipeline has more than 50 points",
+      "Not validated CFD data"
+    ]
+  },
+  "points": [
+    {
+      "alpha_deg": -10.0,
+      "cd": 0.062457
+    },
+    {
+      "alpha_deg": -9.5,
+      "cd": 0.057954
+    },
+    {
+      "alpha_deg": -9.0,
+      "cd": 0.053706
+    },
+    {
+      "alpha_deg": -8.5,
+      "cd": 0.049697
+    },
+    {
+      "alpha_deg": -8.0,
+      "cd": 0.045918
+    },
+    {
+      "alpha_deg": -7.5,
+      "cd": 0.042362
+    },
+    {
+      "alpha_deg": -7.0,
+      "cd": 0.039026
+    },
+    {
+      "alpha_deg": -6.5,
+      "cd": 0.035907
+    },
+    {
+      "alpha_deg": -6.0,
+      "cd": 0.033003
+    },
+    {
+      "alpha_deg": -5.5,
+      "cd": 0.030314
+    },
+    {
+      "alpha_deg": -5.0,
+      "cd": 0.02784
+    },
+    {
+      "alpha_deg": -4.5,
+      "cd": 0.025579
+    },
+    {
+      "alpha_deg": -4.0,
+      "cd": 0.023532
+    },
+    {
+      "alpha_deg": -3.5,
+      "cd": 0.021699
+    },
+    {
+      "alpha_deg": -3.0,
+      "cd": 0.020079
+    },
+    {
+      "alpha_deg": -2.5,
+      "cd": 0.018672
+    },
+    {
+      "alpha_deg": -2.0,
+      "cd": 0.017479
+    },
+    {
+      "alpha_deg": -1.5,
+      "cd": 0.016499
+    },
+    {
+      "alpha_deg": -1.0,
+      "cd": 0.015733
+    },
+    {
+      "alpha_deg": -0.5,
+      "cd": 0.01518
+    },
+    {
+      "alpha_deg": 0.0,
+      "cd": 0.01484
+    },
+    {
+      "alpha_deg": 0.5,
+      "cd": 0.01518
+    },
+    {
+      "alpha_deg": 1.0,
+      "cd": 0.015733
+    },
+    {
+      "alpha_deg": 1.5,
+      "cd": 0.016499
+    },
+    {
+      "alpha_deg": 2.0,
+      "cd": 0.017479
+    },
+    {
+      "alpha_deg": 2.5,
+      "cd": 0.018672
+    },
+    {
+      "alpha_deg": 3.0,
+      "cd": 0.020079
+    },
+    {
+      "alpha_deg": 3.5,
+      "cd": 0.021699
+    },
+    {
+      "alpha_deg": 4.0,
+      "cd": 0.023532
+    },
+    {
+      "alpha_deg": 4.5,
+      "cd": 0.025579
+    },
+    {
+      "alpha_deg": 5.0,
+      "cd": 0.02784
+    },
+    {
+      "alpha_deg": 5.5,
+      "cd": 0.030314
+    },
+    {
+      "alpha_deg": 6.0,
+      "cd": 0.033003
+    },
+    {
+      "alpha_deg": 6.5,
+      "cd": 0.035907
+    },
+    {
+      "alpha_deg": 7.0,
+      "cd": 0.039026
+    },
+    {
+      "alpha_deg": 7.5,
+      "cd": 0.042362
+    },
+    {
+      "alpha_deg": 8.0,
+      "cd": 0.045918
+    },
+    {
+      "alpha_deg": 8.5,
+      "cd": 0.049697
+    },
+    {
+      "alpha_deg": 9.0,
+      "cd": 0.053706
+    },
+    {
+      "alpha_deg": 9.5,
+      "cd": 0.057954
+    },
+    {
+      "alpha_deg": 10.0,
+      "cd": 0.062457
+    },
+    {
+      "alpha_deg": 10.5,
+      "cd": 0.067234
+    },
+    {
+      "alpha_deg": 11.0,
+      "cd": 0.072315
+    },
+    {
+      "alpha_deg": 11.5,
+      "cd": 0.077728
+    },
+    {
+      "alpha_deg": 12.0,
+      "cd": 0.083494
+    },
+    {
+      "alpha_deg": 12.5,
+      "cd": 0.089831
+    },
+    {
+      "alpha_deg": 13.0,
+      "cd": 0.096914
+    },
+    {
+      "alpha_deg": 13.5,
+      "cd": 0.104661
+    },
+    {
+      "alpha_deg": 14.0,
+      "cd": 0.112988
+    },
+    {
+      "alpha_deg": 14.5,
+      "cd": 0.121846
+    },
+    {
+      "alpha_deg": 15.0,
+      "cd": 0.131228
+    },
+    {
+      "alpha_deg": 15.5,
+      "cd": 0.141153
+    },
+    {
+      "alpha_deg": 16.0,
+      "cd": 0.151653
+    },
+    {
+      "alpha_deg": 16.5,
+      "cd": 0.162754
+    },
+    {
+      "alpha_deg": 17.0,
+      "cd": 0.174478
+    },
+    {
+      "alpha_deg": 17.5,
+      "cd": 0.186839
+    },
+    {
+      "alpha_deg": 18.0,
+      "cd": 0.199847
+    },
+    {
+      "alpha_deg": 18.5,
+      "cd": 0.213508
+    },
+    {
+      "alpha_deg": 19.0,
+      "cd": 0.227827
+    },
+    {
+      "alpha_deg": 19.5,
+      "cd": 0.242805
+    },
+    {
+      "alpha_deg": 20.0,
+      "cd": 0.258445
+    }
+  ]
+}
